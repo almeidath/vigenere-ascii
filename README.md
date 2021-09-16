@@ -8,15 +8,15 @@ The key can be any word, number or phrase, as long as all characters are present
 
 ## Example
 
-Text: Attack the enemy camp at dawn\
-Key: lemon\
-Result: .ZbQRXebXTlK\U\feQQ\]eOdnQGe^
+Text: "Attack the enemy camp at dawn"\
+Key: "lemon"\
+Result: ".ZbQRXebXTlK\U\feQQ\]eOdnQGe^"
 
 To decrypt, just select the option, type the encrypted text and enter the original key:
 
-Text: .ZbQRXebXTlK\U\feQQ\]eOdnQGe^\
-Key: lemon\
-Result: Attack the enemy camp at dawn
+Text: ".ZbQRXebXTlK\U\feQQ\]eOdnQGe^"\
+Key: "lemon"\
+Result: "Attack the enemy camp at dawn"
 
 ## Lookup table
 ```python
