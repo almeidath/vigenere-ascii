@@ -1,6 +1,6 @@
 # Vigenère ASCII
 
-Vigenère cipher is a method of encrypting text by using a series of interwoven Caesar ciphers following the character indexes of a key. Originally, only the 26 letters of the alphabet are used, but this code applies the Vigenère cipher logic for 95 characters, including upper and lower case letters, numbers and symbols, from the 33 to the 126 decimal index of the ASCII table.
+Vigenère cipher is a method of encrypting text by using a series of interwoven Caesar ciphers following the character indexes of a key. Originally, only the 26 letters of the alphabet are used, but this code applies the Vigenère cipher logic for 95 characters, including upper and lower case letters, numbers and symbols. All characters from the 33 to the 126 decimal index of the ASCII table.
 
 The user will write a text that they want to encrypt, and must define a key for the encryption. Any character on the text that is not on the list will be left as it is. So ideally, don't use accented letters or things like that.
 
