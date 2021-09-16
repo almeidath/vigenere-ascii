@@ -15,7 +15,7 @@ def vigenere(start, text, key):
     if text[i] not in list:
       result+=text[i]
     else:
-      if encrypt == 1:
+      if start == 1:
         result+=list[(list.index(text[i])+list.index(key[i%len(key)]))%len(list)]
       else:
         result+=list[(list.index(text[i])-list.index(key[i%len(key)]))%len(list)]
@@ -28,7 +28,7 @@ print(vigenere(start, text,key))
 
 """
 This will work on any of the ASCII characters on the list. 
-Any character that is not on the list will be left alone. 
+Any character that is not on the list will be left as it is. 
 So ideally, don't use accented letters or things like that.
 
 Unlike the text being encrypted, all the characters on the key must be on the list.
